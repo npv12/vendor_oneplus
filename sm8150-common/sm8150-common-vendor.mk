@@ -182,6 +182,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/oneplus/sm8150-common/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
     vendor/oneplus/sm8150-common/proprietary/bin/dashd:$(TARGET_COPY_OUT_SYSTEM)/bin/dashd \
+    vendor/oneplus/sm8150-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/oneplus/sm8150-common/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/oneplus/sm8150-common/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
     vendor/oneplus/sm8150-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/oneplus/sm8150-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
@@ -1311,8 +1313,6 @@ PRODUCT_PACKAGES += \
     NxpNfcNci \
     NxpSecureElement \
     SoterService \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340 \
     WfdService \
     CneApp \
     IWlanService \
@@ -1321,6 +1321,8 @@ PRODUCT_PACKAGES += \
     pasrservice \
     QtiTelephonyService \
     uceShimService \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340 \
     dpmserviceapp \
     qcrilmsgtunnel \
     ims \
