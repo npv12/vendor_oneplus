@@ -309,13 +309,6 @@ dex_import {
 	system_ext_specific: true,
 }
 
-dex_import {
-	name: "vendor.qti.hardware.capabilityconfigstore-V1.0-java",
-	owner: "oneplus",
-	jars: ["proprietary/product/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar"],
-	product_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.0-service-qti",
 	owner: "oneplus",
